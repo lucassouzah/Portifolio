@@ -5,33 +5,104 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+:root{
+    --gradient:linear-gradient(
+        to right,
+        rgb(61 28 207),
+        rgb(100 50 260),
+        rgb(67 114 252)
+
+    )
+}
+
+@keyframes flutuar {
+    0%{
+       top:0; 
+    }
+    100%{
+        top: 30px;
+    }
+    
+}
+
+
+@keyframes colors {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
 }
 
 body{
-    background-color: rgb(39, 38, 38);
+    background: linear-gradient(45deg,#2b3a49,#222222,#2f285f);
     height: 100vh;
+    background-size: 300% 300%;
+    animation: colors 7s ease infinite alternate;
+    
 }
 
 .interface{
     max-width: 1280px;
+    font-size: 20px;
     margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(61, 28, 207);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px rgb(90, 53, 255);
+    transform: scale(1.05);
+}
+
+h2.subtitulo{
+    color: white;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.subtitulo span{
+    color:rgb(90, 53, 255);
 }
 
 /* ESTILO DO HEADER */
 
 header{
-    padding: 40px 4%;
+    padding: 45px 4%;
 }
 
 header > .interface{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
+    justify-content: space-between
 
-header a {
-    color: white;
-    text-decoration: none;
+}
+header a h1{
+    background-image: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 header nav ul{
@@ -43,16 +114,81 @@ header nav ul li{
     padding: 0 40px;
 }
 
-header .btn-contato button{
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: blueviolet;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
+header nav ul li a:hover{
+    color:rgb(61, 28, 207);
+    display: inline-block;
+    transform: scale(1.15);
+    transition: .2s;
 }
 
+
+
+
+/* ESTILO DO MAIN */
+/* Inicio */
+
+section.topo-do-site{
+    padding: 80px 5%;
+}
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    
+}
+
+.topo-do-site h1{
+    font-size: 40px;
+    line-height: 22px;
+    line-height: 40px;
+}
+
+.topo-do-site h1 span{
+    padding-left: 10px;
+    color: rgb(90, 53, 255);
+}
+
+.topo-do-site .txt-topo-site p{
+    margin: 40px 0px;
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+/* Habilidades */
+
+section.habilidades {
+    padding: 60px  5px;
+}
+section.habilidades .flex{
+    gap: 60px;
+}
+.habilidades .habilidades-box{
+    position: relative;
+    padding: 40px;
+    margin: auto;
+    margin-top: 45px;
+    border-radius: 20px;
+}
+.habilidades .habilidades-box:hover{
+    transform: scale(1.15);
+    box-shadow: 0 0 10px rgb(197, 194, 194);
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+.habilidades .habilidades-box i{
+    color: rgb(90, 53, 255);
+    font-size: 70px;
+}
+
+.habilidades .habilidades-box h3{
+    font-size: 28px;
+    margin: 15px 0px;
+}
 
 
 
