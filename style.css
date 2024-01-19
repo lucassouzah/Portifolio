@@ -90,6 +90,12 @@ h2.subtitulo span{
 
 header{
     padding: 45px 4%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 0 20px 20px rgba(127, 51, 189, 0.658);
+    background-color: rgb(34, 34, 34);
 }
 
 header > .interface{
@@ -128,7 +134,8 @@ header nav ul li a:hover{
 /* Inicio */
 
 section.topo-do-site{
-    padding: 80px 5%;
+    margin-top: 260px;
+    padding: 60px 5%;
 }
 section.topo-do-site .flex{
     align-items: center;
@@ -233,6 +240,13 @@ section.sobre .flex{
     font-size: 30px;
     cursor: pointer;
     transition: .3s;
+}
+
+/* Projetos */
+
+section.projetos{
+    padding: 80% 4%;
+    box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.096);
 }
 
 
