@@ -43,10 +43,10 @@
 }
 
 body{
-    background: linear-gradient(45deg,#5b3864,#2b3a49,#352a7e);
+    background: linear-gradient(60deg,#281f5a,#3a3939,#183ea7);
     height: 100vh;
-    background-size: 300% 300%;
-    animation: colors 5s ease infinite alternate;
+    background-size:300% 300%;
+    animation: colors 7s ease infinite alternate;
     
 }
 
@@ -90,12 +90,7 @@ h2.subtitulo span{
 
 header{
     padding: 45px 4%;
-    top: 0;
-    left: 0;
-    width: 100%;
-    position: fixed;
     box-shadow: 0 0 20px 20px rgba(127, 51, 189, 0.658);
-    background-color: rgb(34, 34, 34);
 }
 
 header > .interface{
@@ -134,7 +129,7 @@ header nav ul li a:hover{
 /* Inicio */
 
 section.topo-do-site{
-    margin-top: 260px;
+    margin-top: 150px;
     padding: 60px 5%;
 }
 section.topo-do-site .flex{
@@ -167,15 +162,16 @@ section.topo-do-site .flex{
 /* Habilidades */
 
 section.habilidades {
+    margin-top: 100px;
     padding: 60px  5px;
 }
 section.habilidades .flex{
-   gap: 60px;
+   gap: 30px;
 }
 .habilidades .habilidades-box{
     position: relative;
     padding: 40px;
-    margin: auto;
+    margin: 60px;
     margin-top: 45px;
     border-radius: 20px;
 }
@@ -190,9 +186,6 @@ section.habilidades .flex{
 .habilidades .habilidades-box i{
     color: rgb(102, 67, 255);
     font-size: 70px;
-}
-.habilidades .habilidades-box p{
-    text-align: justify;
 }
 .habilidades .habilidades-box h3{
     font-size: 28px;
@@ -245,17 +238,17 @@ section.sobre .flex{
 /* Projetos */
 
 section.projetos{
-    padding: 80% 4%;
+    padding: 80px;
     box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.096);
 }
 
 
-/*
+
 .scroll-title-primary, .scroll-paragrafo-primary .scroll-btn-primary .img-topo-site, .habilidades{
     visibility: hidden;
 }
 
-*/
+
 
 
 

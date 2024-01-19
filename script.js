@@ -26,6 +26,9 @@ sr.reveal('.img-topo-site',{
 sr.reveal('.habilidades',{
     rotate: {x: 0,y: 80, z:0},
     duration:2000,
-    delay:500
+    delay: 200
+    
 })
+
+
 
