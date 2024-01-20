@@ -170,8 +170,8 @@ section.habilidades .flex{
 }
 .habilidades .habilidades-box{
     position: relative;
-    padding: 40px;
-    margin: 60px;
+    padding: 45px;
+    margin: auto;
     margin-top: 45px;
     border-radius: 20px;
 }
@@ -189,20 +189,21 @@ section.habilidades .flex{
 }
 .habilidades .habilidades-box h3{
     font-size: 28px;
-    margin: 10px 0px;
+    margin: 10px 10px;
 }
 
 /* Sobre */
 
 section.sobre{
-    padding: 100px 4%;
+    margin-top: 100px;
+    padding: 60px  5px;
 }
 
 .sobre .img-sobre img{
     width: 480px;
     height: 550px;
     border-radius: 20px;
-    box-shadow: 0px 0px 8px rgb(102, 67, 255)
+    box-shadow: 0px 0px 8px rgb(197, 194, 194);
 }
 section.sobre .flex{
     align-items: center;
@@ -244,7 +245,7 @@ section.projetos{
 
 
 
-.scroll-title-primary, .scroll-paragrafo-primary .scroll-btn-primary .img-topo-site, .habilidades{
+.scroll-title-primary, .scroll-paragrafo-primary .scroll-btn-primary .img-topo-site, .habilidades, .img-sobre, .titulo-sobre, .btn-social, .paragrafo-sobre{
     visibility: hidden;
 }
 

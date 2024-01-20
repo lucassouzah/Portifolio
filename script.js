@@ -26,7 +26,33 @@ sr.reveal('.img-topo-site',{
 sr.reveal('.habilidades',{
     rotate: {x: 0,y: 80, z:0},
     duration:2000,
-    delay: 200
+    delay: 150
+    
+})
+
+sr.reveal('.img-sobre',{
+    rotate: {x: 0,y: 100, z:100},
+    duration:2000,
+    delay:500
+    
+})
+sr.reveal('.titulo-sobre',{
+    rotate: {x: 0,y: 80, z:0},
+    duration:2000,
+    delay:200
+})
+
+sr.reveal('.paragrafo-sobre',{
+    rotate: {x: 0,y: 80, z:0},
+    duration:2500,
+    delay:200
+    
+})
+
+sr.reveal('.btn-social',{
+    rotate: {x: 0,y: 80, z:0},
+    duration:3000,
+    delay:200
     
 })
 
