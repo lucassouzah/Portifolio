@@ -239,8 +239,18 @@ section.sobre .flex{
 /* Projetos */
 
 section.projetos{
-    padding: 80px;
+    padding: 60px  5px;
     box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.096);
+}
+
+section.projetos .flex{
+    justify-content: space-around;
+}
+
+.img-projetos{
+    width: 360px;
+    height: 460px;
+    background-color:rgb(102, 67, 255) ;
 }
 
 
