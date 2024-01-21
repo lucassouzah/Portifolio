@@ -60,10 +60,37 @@ sr.reveal('.paragrafo-sobre',{
 
 sr.reveal('.btn-social',{
     rotate: {x: 0,y: 80, z:0},
-    duration:3000,
+    duration:2500,
     delay:100
     
 })
 
+
+sr.reveal('.sub-projetos',{
+    rotate: {x: 0,y: 80, z:0},
+    duration:2000,
+    delay:100
+})
+
+sr.reveal('.projeto-1',{
+    rotate: {x: 0,y: 100, z:100},
+    duration:1800,
+    
+    
+})
+
+sr.reveal('.projeto-2',{
+    rotate: {x: 0,y: 100, z:100},
+    duration:2600,
+    delay:100
+    
+})
+
+sr.reveal('.projeto-3',{
+    rotate: {x: 0,y: 100, z:100},
+    duration:3200,
+    delay:200
+    
+})
 
 
