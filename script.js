@@ -1,3 +1,12 @@
+let trilho = document.getElementById('trilho')
+let body = document.querySelector('body')
+
+trilho.addEventListener('click',()=>{
+    trilho.classList.toggle('dark')
+    body.classList.toggle('dark')
+})
+
+
 window.sr = ScrollReveal ({reset: true});
 
 sr.reveal('.scroll-title-primary',{

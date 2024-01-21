@@ -44,6 +44,7 @@
 
 body{
     background: linear-gradient(60deg,#281f5a,#3a3939,#183ea7);
+    transition: .5s;
     height: 100vh;
     background-size:300% 300%;
     animation: colors 7s ease infinite alternate;
@@ -96,7 +97,7 @@ header{
 header > .interface{
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-between;
 
 }
 header a h1{
@@ -112,18 +113,93 @@ header nav ul{
 
 header nav ul li{
     display: inline-block;
+    color: white;
     padding: 0 40px;
 }
 
 header nav ul li a:hover{
-    color:rgb(61, 28, 207);
+    color:rgb(102, 67, 255);
     display: inline-block;
     transform: scale(1.15);
     transition: .2s;
 }
 
+/* MODO DARK  */
 
+header .trilho{
+    position: relative;
+    width: 50px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: rgb(110, 108, 108);
+    cursor: pointer;
+}
 
+.trilho .indicador{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(5, 5, 5);
+    transform: scale(.9);
+    left: 0;
+    transition: .5s;
+}
+
+.trilho.dark{
+    background-color: #3a3939;
+}
+
+.trilho.dark .indicador{
+    left: 25px;
+    background-color: white;
+}
+
+body.dark{
+    background: #e4e4e4;
+}
+
+body.dark header nav ul li a{
+    color: black ;
+}
+body.dark header nav ul li a:hover{
+    color:rgb(102, 67, 255);
+    display: inline-block;
+    transform: scale(1.15);
+    transition: .2s;
+}
+
+body.dark .topo-do-site h1{
+    color: black ;
+}
+
+body.dark .topo-do-site p{
+    color: black ;
+}
+
+body.dark .habilidades h2{
+    color: black ;
+}
+
+body.dark .habilidades h3{
+    color: black ;
+}
+
+body.dark .habilidades P{
+    color: black ;
+}
+
+body.dark .sobre h2{
+    color: black ;
+}
+
+body.dark .sobre p{
+    color:black;
+}
+
+body.dark .projetos h2{
+    color: black;
+}
 
 /* ESTILO DO MAIN */
 /* Inicio */
@@ -265,7 +341,7 @@ section.projetos .flex{
 
 .overlay{
     position: absolute;
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
     font-size: 24px;
@@ -283,6 +359,31 @@ section.projetos .flex{
 .overlay:hover{
     opacity: 1;
 }
+
+
+.projetos .img-projetos .btn-repositorio{
+    display: flex;
+    justify-content:end;
+}
+
+.projetos .img-projetos .btn-repositorio button{
+    position: relative;
+    width: 38px;
+    height: 38px;
+    margin: 0 10px;
+    border-radius: 27px;
+    border: none;
+    background-color:rgb(50, 4, 124) ;
+    font-size: 23px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.projetos .img-projetos .btn-repositorio button:hover{
+    box-shadow: 0px 0px 8px rgb(102, 67, 255);
+    transform: scale(1.20);
+}
+
 
 
 
