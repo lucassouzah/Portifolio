@@ -32,9 +32,16 @@ sr.reveal('.img-topo-site',{
     delay:200
 })
 
-sr.reveal('.habilidades',{
+
+sr.reveal('.habilidades-titulo',{
     rotate: {x: 0,y: 80, z:0},
-    duration:2000,
+    duration:2000
+});
+
+
+sr.reveal('.habilidades-box',{
+    rotate: {x: 0,y: 80, z:0},
+    duration:3000,
     delay: 100
     
 })
@@ -89,8 +96,16 @@ sr.reveal('.projeto-2',{
 sr.reveal('.projeto-3',{
     rotate: {x: 0,y: 100, z:100},
     duration:3200,
-    delay:200
+    delay:150
     
 })
+
+
+sr.reveal('section.formulario',{
+    duration: 2000,
+    distance:'90px'
+
+})
+
 
 
