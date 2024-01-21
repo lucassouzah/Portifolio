@@ -15,7 +15,7 @@
     <title>Portifólio Lucas Souza</title>
 </head>
 <body>
-    <header>
+    <header id="up">
         <div class="interface">
             <div class="logo-header">
                 <a href="#">
@@ -25,15 +25,15 @@
 
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Habilidades</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Projetos</a></li>
+                    <li><a href="#up">Inicio</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
                 </ul>
             </nav>
 
             <div class="btn-contato">
-                <a href="#">
+                <a href="#contato">
                     <button>Contato</button>
                 </a>
             </div>
@@ -46,7 +46,7 @@
 
         </div>
     </header>
-     <main>
+     <main id="inicio">
         <section class="topo-do-site"><!--Inicio-->
             <div class="interface">
                 <div class="flex">
@@ -54,7 +54,7 @@
                         <h1 class="scroll-title-primary"> BEM VINDO AO MEU PERFIL<span>:)</span></h1>
                         <p class="scroll-paragrafo-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                         <div class="btn-contato scroll-btn-primary">
-                            <a href="#">
+                            <a href="#contato">
                                 <button>Entre em contato</button>
                             </a>
                         </div>
@@ -67,7 +67,7 @@
             </div>
         </section><!--Inicio-->
 
-        <section class="habilidades"><!--Habilidade-->
+        <section class="habilidades" id="habilidades"><!--Habilidade-->
             <div class="interface">
                 <h2 class="subtitulo habilidades-titulo">MINHAS <span>HABILIDADES</span></h2>
                 <div class="flex">
@@ -85,7 +85,7 @@
             </div>
         </section><!--Habilidade-->
 
-        <section class="sobre"><!--Sobre-->
+        <section class="sobre" id="sobre"><!--Sobre-->
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
@@ -105,7 +105,7 @@
             </div>
         </section><!--Sobre-->
 
-        <section class="projetos"><!--projetos-->
+        <section class="projetos" id="projetos"><!--projetos-->
             <div class="interface">
                 <h2 class="subtitulo sub-projetos">MEUS <span>PROJETOS</span></h2>
                 <div class="flex projeto-box">
@@ -206,16 +206,19 @@
             </div>
         </section><!--projetos-->
 
-        <section class="formulario"><!--Formulario-->
+        <section class="formulario" id="contato"><!--Formulario-->
             <div class="interface">
                 <h2 class="subtitulo contato-titulo">ENTRE EM <span>CONTATO</span></h2>
 
                 <form action="">
                     <input type="text" name="" id="" placeholder="Digite seu Nome:" required>
                     <input type="text" name="" id="" placeholder="Digite seu E-mail:" required>
-                    <textarea name="" id="" placeholder="Sua Mensagem:"required> </textarea>
+                    <textarea type="" name="" id="" placeholder="Digite sua Mensagem:" required></textarea>
                     <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
                 </form>
+                <div class="btn-social btn-up-site">
+                    <a href="#up"><button><i class="bi bi-arrow-bar-up"></i></button></a>
+                </div>
             </div>
         </section><!--Formulario-->
      </main>
@@ -233,6 +236,7 @@
                     <a href="https://github.com/lucassouzah"><button><i class="bi bi-github"></i></button></a>
                     <a href="#"><button><i class="bi bi-instagram"></i></button></a>
                 </div>
+            
             </div>
             
         </div>

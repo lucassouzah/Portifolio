@@ -88,21 +88,22 @@ sr.reveal('.projeto-1',{
 
 sr.reveal('.projeto-2',{
     rotate: {x: 0,y: 100, z:100},
-    duration:2600,
+    duration:2300,
     delay:100
     
 })
 
 sr.reveal('.projeto-3',{
     rotate: {x: 0,y: 100, z:100},
-    duration:3200,
+    duration:2800,
     delay:150
     
 })
 
 
 sr.reveal('section.formulario',{
-    duration: 2000,
+    duration: 2500,
+    delay: 50,
     distance:'90px'
 
 })

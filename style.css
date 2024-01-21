@@ -43,7 +43,7 @@
 }
 
 body {
-    background: linear-gradient(60deg, #281f5a, #3a3939, #183ea7);
+    background: linear-gradient(60deg, #2b2164, black, #321444);
     transition: .5s;
     height: 100vh;
     background-size: 300% 300%;
@@ -449,12 +449,12 @@ form {
 
 }
 
-form input {
+form input{
     width: 100%;
     border: 1px solid black;
     border-radius: 20px;
     padding: 20px 15px;
-    background-color: rgba(0, 0, 0, 0.459);
+    background-color: rgba(94, 90, 90, 0.459);
     color: white;
     font-size: 15px;
     outline: 0;
@@ -474,7 +474,7 @@ form textarea {
     width: 100%;
     border-radius: 20px;
     height: 200px;
-    background-color: rgba(0, 0, 0, 0.459);
+    background-color: rgba(94, 90, 90, 0.459);
     padding: 20px 15px;
     font-size: 15px;
     outline: 0;
@@ -505,6 +505,11 @@ form .btn-enviar input:hover {
     transform: scale(1.05);
 }
 
+
+.btn-up-site{
+    display: flex;
+    justify-content: right;
+}
 
 /* Final Formulario */
 
