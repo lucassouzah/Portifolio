@@ -87,6 +87,16 @@ h2.subtitulo span {
     color: rgb(102, 67, 255);
 }
 
+.scroll-title-secound{
+    color: white;
+    font-size: 25px;
+    text-align: start;
+}
+.scroll-title-secound span{
+    color: rgb(102, 67, 255);
+}
+
+
 /* ESTILO DO HEADER */
 
 header {
@@ -261,7 +271,7 @@ section.habilidades {
 }
 
 section.habilidades .flex {
-    gap: 30px;
+    gap: 20px;
 }
 
 .habilidades .habilidades-box {
@@ -270,20 +280,65 @@ section.habilidades .flex {
     margin: auto;
     margin-top: 45px;
     border-radius: 20px;
-}
-
-.habilidades .habilidades-box:hover {
-    transform: scale(1.15);
-    box-shadow: 0 0 10px rgb(102, 67, 255);
     cursor: pointer;
     transition: .3s;
 }
 
+.habilidades .habilidades-box:hover {
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgb(102, 67, 255);
+}
 
-.habilidades .habilidades-box i {
-    color: rgb(102, 67, 255);
+
+.habilidades .habilidades-box .bi {
+    background-image: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
     font-size: 70px;
 }
+
+.habilidades .habilidades-box .bi-filetype-html{
+    color: white;
+    font-size: 40px;
+}
+.habilidades .habilidades-box .bi-filetype-css{
+    color: white;
+    font-size: 40px;
+}
+.habilidades .habilidades-box .bi-filetype-js{
+    color: white;
+    font-size: 40px;
+}
+.habilidades .habilidades-box .bi-filetype-jsx{
+    color: white;
+    font-size: 40px;
+}
+.habilidades .habilidades-box .bi-bootstrap{
+    color: white;
+    font-size: 40px;
+}
+.habilidades .habilidades-box .bi-github{
+    color: white;
+    font-size: 40px;
+}
+.habilidades .habilidades-box .bi-filetype-php{
+    color: white;
+    font-size: 40px;
+}
+.habilidades .habilidades-box .bi-filetype-py{
+    color: white;
+    font-size: 40px;
+}
+
+.habilidades .habilidades-box .bi-filetype-sql{
+    color: white;
+    font-size: 40px;
+}
+
+
+
+
 
 .habilidades .habilidades-box h3 {
     font-size: 28px;
@@ -302,8 +357,9 @@ section.sobre {
     width: 480px;
     height: 550px;
     border-radius: 20px;
-    box-shadow: 0px 0px 8px rgb(197, 194, 194);
+    box-shadow: 10px 0px 20px rgb(87, 19, 247);
 }
+
 
 section.sobre .flex {
     align-items: center;
