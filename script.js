@@ -70,6 +70,12 @@ sr.reveal('.paragrafo-sobre',{
     delay:100
     
 })
+sr.reveal('.sub-social',{
+    rotate: {x: 0,y: 80, z:0},
+    duration:2500,
+    delay:100
+    
+})
 
 sr.reveal('.btn-social',{
     rotate: {x: 0,y: 80, z:0},
@@ -113,6 +119,7 @@ sr.reveal('section.formulario',{
     distance:'90px'
 
 })
+
 
 
 
