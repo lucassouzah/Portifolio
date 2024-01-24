@@ -191,6 +191,10 @@ body.dark .topo-do-site h1 {
     color: black;
 }
 
+body.dark .topo-do-site h3{
+    color: black;
+}
+
 body.dark .topo-do-site p {
     color: black;
 }
@@ -206,6 +210,45 @@ body.dark .habilidades h3 {
 body.dark .habilidades P {
     color: black;
 }
+
+body.dark .habilidades .habilidades-box .bi-filetype-html{
+    color: black;
+    
+}
+body.dark .habilidades .habilidades-box .bi-filetype-css{
+    color: black;
+    
+}
+body.dark .habilidades .habilidades-box .bi-filetype-js{
+    color: black;
+    
+}
+body.dark .habilidades .habilidades-box .bi-filetype-jsx{
+    color: black;
+    
+}
+body.dark .habilidades .habilidades-box .bi-bootstrap{
+    color: black;
+  
+}
+body.dark .habilidades .habilidades-box .bi-github{
+    color: black;
+    
+}
+body.dark .habilidades .habilidades-box .bi-filetype-php{
+    color: black;
+   
+}
+body.dark .habilidades .habilidades-box .bi-filetype-py{
+    color: black;
+   
+}
+
+body.dark .habilidades .habilidades-box .bi-filetype-sql{
+    color: black;
+    
+}
+
 
 body.dark .sobre h2 {
     color: black;
@@ -593,7 +636,7 @@ footer a h1 {
 
 
 /* EFEITO SCROLL  */
-.scroll-title-primary,
+.scroll-title-primary, .scroll-title-secound,
 .scroll-paragrafo-primary .scroll-btn-primary .img-topo-site,
 .habilidades,
 .img-sobre,

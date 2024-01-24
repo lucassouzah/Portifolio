@@ -13,6 +13,12 @@ sr.reveal('.scroll-title-primary',{
     rotate: {x: 0,y: 80, z:0},
     duration:2000
 });
+sr.reveal('.scroll-title-secound',{
+    rotate: {x: 0,y: 80, z:0},
+    duration:2000
+});
+
+
 
 sr.reveal('.scroll-paragrafo-primary',{
     rotate: {x: 0,y: 80, z:0},
