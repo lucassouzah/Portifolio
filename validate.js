@@ -36,8 +36,21 @@ form.addEventListener("submit", (event)=>{
         const emailReg = new RegExp(
             /^[a-zA-Z0-9._-]+@[a-zAZ0-9._-]+\.[a-zA-Z]{2,}$/
         );
-        if(emailreg.test(email)){
-            return true;
+        if(emailReg.test(email)){
+            
+            return true,
+            Swal.fire({
+                title: "Formulario Enviado!",
+                text: "clique para fechar!",
+                icon: "success"
+              });
+    
         }
-        return false;
+            return false,
+            Swal.fire({
+                icon: "Ops..",
+                title: "Veja se preencheu os campos corretamente",
+                text: "Algo deu errado!",
+            });
+
     }

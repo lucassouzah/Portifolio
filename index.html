@@ -197,10 +197,11 @@
             <div class="interface">
                 <h2 class="subtitulo contato-titulo">ENTRE EM <span>CONTATO</span></h2>
 
-                <form id="form">
-                    <input type="text" name="" id="nome" placeholder="Digite seu Nome:" required>
-                    <input type="email" name="" id="email" placeholder="Digite seu E-mail:" required>
-                    <textarea type="" name="" id="mensagem" placeholder="Digite sua Mensagem:" required></textarea>
+                <form id="form" action="https://api.staticforms.xyz/submit" method="POST">
+                    <input type="hidden" name="accessKey" value="18321abb-8521-4002-b8a7-42cc5ae3b4f8">
+                    <input type="text" name="name" id="name" placeholder="Digite seu Nome:" required>
+                    <input type="email" name="email" id="email" placeholder="Digite seu E-mail:" required>
+                    <textarea type="" name="message" id="mensagem" placeholder="Digite sua Mensagem:" required></textarea>
                     <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
                 </form>
                 <div class="btn-social btn-up-site">
@@ -231,5 +232,7 @@
 
      <script src="script.js"></script>
      <script src="validate.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+     
 </body>
 </html>
