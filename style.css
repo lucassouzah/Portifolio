@@ -517,8 +517,8 @@ section.projetos .flex {
 
 .projetos .img-projetos .btn-repositorio button {
     position: relative;
-    width: 38px;
-    height: 38px;
+    width: 45px;
+    height: 45px;
     margin: 0 10px;
     border-radius: 27px;
     border: none;
@@ -533,6 +533,9 @@ section.projetos .flex {
     transform: scale(1.20);
 }
 
+.btn-repositorio{
+    padding: 2px;
+}
 /* Final Projetos */
 
 
