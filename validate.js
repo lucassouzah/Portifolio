@@ -26,6 +26,7 @@ form.addEventListener("submit", (event)=>{
 
     // Se os campos estiverem correntos então enviar formulario
     form.submit();
+    alert("Mensagem Enviada com Sucesso")
 
 });
 
