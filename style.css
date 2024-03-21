@@ -22,7 +22,7 @@
     }
 
     100% {
-        top: 30px;
+        top: 25px;
     }
 
 }
@@ -62,12 +62,16 @@ body {
     display: flex;
     align-items: end;
     justify-content: space-around;
-}
-
-.txt-animado p{
-    font-size: 50px ;
-    font-weight: 600;
-    color: #2b2164;
+    font-size: 65px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(45deg,rgb(57, 36, 150),rgb(125, 98, 245),#9847ce);
+    background-size: 300% 300%;
+    animation: colors 3s linear infinite alternate;
+    outline: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .flex {

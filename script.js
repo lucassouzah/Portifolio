@@ -9,7 +9,7 @@ trilho.addEventListener('click',()=>{
 
 window.sr = ScrollReveal ({reset: true});
 
-sr.reveal('.scroll-title',{
+sr.reveal('.txt-animado',{
     rotate: {x: 0,y: 80, z:0},
     duration:2000
 });
