@@ -66,6 +66,8 @@ body {
 
 .txt-animado p{
     font-size: 50px ;
+    font-weight: 600;
+    color: #2b2164;
 }
 
 .flex {
