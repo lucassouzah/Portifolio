@@ -64,6 +64,10 @@ body {
     justify-content: space-around;
 }
 
+.txt-animado p{
+    font-size: 50px ;
+}
+
 .flex {
     display: flex;
 }
