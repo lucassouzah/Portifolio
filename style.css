@@ -62,7 +62,7 @@ body {
     display: flex;
     align-items: end;
     justify-content: space-around;
-    font-size: 65px;
+    font-size: 60px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     text-transform: uppercase;
@@ -700,7 +700,7 @@ footer a h1 {
     /* INICIO */
 
     .txt-animado {
-        padding: 20px 8%;
+        font-size: 45px;
     }
 
     section.topo-do-site .flex {
