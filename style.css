@@ -699,6 +699,10 @@ footer a h1 {
 
     /* INICIO */
 
+    .txt-animado {
+        padding: 20px 8%;
+    }
+
     section.topo-do-site .flex {
         gap: 40px;
     }
